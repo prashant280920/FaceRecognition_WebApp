@@ -1,7 +1,7 @@
 # FaceRecognition_WebApp
 
-This app detect the faces present in an image 
-Website is online on -- https://prashant280920.github.io/FaceRecognition_WebApp/
+This web app recognise faces in an image.<br /> 
+Website is online on -- https://prashant280920.github.io/FaceRecognition_WebApp/ <br />
 You just have to enter the link address or the URL of the image.
 
 ## Available Scripts
