@@ -39,6 +39,12 @@ class App extends Component {
 		}
 	}
 
+	componentDidMount(){
+		fetch('http://localhost:3001/')
+		.then(response => response.json())
+		.then(console.log)
+	}
+
 	calculateFaceLocation = (array) =>{
 		const l=[]
 		const image = document.getElementById("inputimage");
