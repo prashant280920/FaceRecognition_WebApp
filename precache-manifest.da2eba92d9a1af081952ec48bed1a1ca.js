@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50379905cfd63acdf4e5917f38abb3c8",
+    "revision": "34d347f5f4157a11c57ee0aa1a7fd3e7",
     "url": "/FaceRecognition_WebApp/index.html"
   },
   {
-    "revision": "c18464f86abf49422116",
+    "revision": "ed4fb05629bf47c4cc48",
     "url": "/FaceRecognition_WebApp/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "e7c5f54f12f5c2a258bc",
+    "revision": "f3cfe91515f529c693ec",
     "url": "/FaceRecognition_WebApp/static/css/main.4b8ef1d9.chunk.css"
   },
   {
-    "revision": "c18464f86abf49422116",
-    "url": "/FaceRecognition_WebApp/static/js/2.af1e966f.chunk.js"
+    "revision": "ed4fb05629bf47c4cc48",
+    "url": "/FaceRecognition_WebApp/static/js/2.b60ef5bc.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/FaceRecognition_WebApp/static/js/2.af1e966f.chunk.js.LICENSE.txt"
+    "url": "/FaceRecognition_WebApp/static/js/2.b60ef5bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7c5f54f12f5c2a258bc",
-    "url": "/FaceRecognition_WebApp/static/js/main.e6e4dffb.chunk.js"
+    "revision": "f3cfe91515f529c693ec",
+    "url": "/FaceRecognition_WebApp/static/js/main.adf35b86.chunk.js"
   },
   {
     "revision": "df112e088382cbe7788f",
