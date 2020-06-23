@@ -19,7 +19,7 @@ class Register extends React.Component  {
 		this.setState({ password : event.target.value})
 	}
 	onSubmitSignIn = () => {
-		if(this.state.email && this.state.password){
+		
 			fetch('http://localhost:3001/register',{
 			method: 'post',
 			headers: {'Content-Type': "application/json"},
@@ -31,7 +31,7 @@ class Register extends React.Component  {
 		})
 		.then(res => res.json())
 		.then(user => {
-			if (user){
+			if (user.id){
 				console.log("1")
 				this.props.loadUser(user);
 			this.props.onRouteChange('home')		
@@ -40,7 +40,7 @@ class Register extends React.Component  {
 			}
 		})
 			
-		}
+		
 		
 		
 	}

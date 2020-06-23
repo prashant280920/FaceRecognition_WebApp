@@ -107,6 +107,7 @@ class App extends Component {
 				.then(count => {
 					this.setState(Object.assign(this.state.user,{entries:count}))
 				})
+				.catch(console.log)
 			}
 			this.displayflexbox(this.calculateFaceLocation(response.outputs[0].data.regions))
 			console.log(this.state.user.id,this.state.user.entries)
