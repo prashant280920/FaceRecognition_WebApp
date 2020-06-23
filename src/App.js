@@ -26,11 +26,7 @@ const particlesOptions = {
     },
          
 }
-
-class App extends Component {
-	constructor(){
-		super();
-		this.state={
+const initialState = {
 			input : '',
 			imageUrl: '',
 			box: {},
@@ -44,6 +40,11 @@ class App extends Component {
 				joined:""
 			}
 		}
+
+class App extends Component {
+	constructor(){
+		super();
+		this.state=initialState;
 	}
 
 	loadUser = (data) => {
@@ -119,7 +120,7 @@ class App extends Component {
 		} else if (route === "home"){
 			this.setState({isSignedIn:true})
 		} else if (route === "signout"){
-			this.setState({isSignedIn:false})
+			this.setState(initialState)
 		}
 		this.setState({route: route})
 	}
