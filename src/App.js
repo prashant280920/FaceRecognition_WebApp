@@ -87,7 +87,7 @@ class App extends Component {
 		
 	} 
 	
-
+//fetching server
 	onButtonSubmit = () => {
 		this.setState({imageUrl:this.state.input})
 		app.models.predict(
