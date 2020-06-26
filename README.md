@@ -2,6 +2,7 @@
 
 This web app recognise faces in an image.<br /> 
 Website is online on -- https://prashant280920.github.io/FaceRecognition_WebApp/ <br />
+This React App also deployed on link -- https://face2-recognition.herokuapp.com/ <br />
 You just have to enter the link address or the URL of the image.
 
 ## Available Scripts
