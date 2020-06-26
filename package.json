@@ -1,6 +1,6 @@
 {
   "name": "facerecognition",
-  "homepage": "http://prashant280920.github.io/FaceRecognition_WebApp",
+ 
   "version": "0.1.0",
   "private": true,
   "engines":{
